@@ -35,4 +35,5 @@ SELECT
     , (1.1*WEIGHT) AS WEIGHT
     , AGE-1 AS AGE
     , REPLACE(GENDER, 'other', 'unknown') as GENDER
+    , ID
 FROM MEASUREMENTS;
